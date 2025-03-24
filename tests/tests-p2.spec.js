@@ -3,6 +3,7 @@ const {
 } = require("../.vscode/settings.json");
 
 const { test, expect } = require("@playwright/test");
+<<<<<<< HEAD
 const {
   getValidationErrorMessage,
   shouldRunTests,
@@ -14,6 +15,9 @@ test.beforeAll(async () => {
     test.skip(true, getValidationErrorMessage());
   }
 });
+=======
+
+>>>>>>> 70fab7a (Initial commit)
 test.beforeEach(async ({ page }) => {
   await page.goto(`localhost:${liveServerPort}`);
 });

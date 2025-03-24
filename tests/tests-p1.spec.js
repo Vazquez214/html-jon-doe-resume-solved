@@ -4,6 +4,7 @@ const {
 
 // @ts-check
 const { test, expect } = require("@playwright/test");
+<<<<<<< HEAD
 const {
   getValidationErrorMessage,
   shouldRunTests,
@@ -16,6 +17,9 @@ test.beforeAll(async () => {
   }
 });
 const mainPageUrl = `http://localhost:${liveServerPort}/`;
+=======
+const mainPageUrl = `http://localhost:${liveServerPort}/index.html`;
+>>>>>>> 70fab7a (Initial commit)
 const cleanArrFromEmptyItems = (arr) => arr.filter((item) => item !== "");
 
 test.beforeEach(async ({ page }) => {

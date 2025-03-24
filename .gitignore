@@ -6,4 +6,7 @@ node_modules/
 package-lock.json
 /tests-examples/
 .idea/
+<<<<<<< HEAD
 test-checking-files
+=======
+>>>>>>> 70fab7a (Initial commit)

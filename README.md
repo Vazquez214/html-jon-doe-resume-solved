@@ -6,6 +6,18 @@
 
 In this activity, you will create a basic resume webpage using HTML. This activity will demonstrate that by understanding the fundamentals of HTML, you can construct actual web pages!
 
+<<<<<<< HEAD
+=======
+To preview your created app, simply click the "Go Live" button found in the VSCODE status bar. This will open your webpage in your browser.
+
+If you are not using VSCode you can install and run the "live-server" npm package following the list of commands:
+
+- [ ] Use `npm i live-server` to install the live-server package
+- [ ] Use `npm run live-server` or `npx live-server --port=5551` to run the live-server. The port number should be 5551 strictly.
+
+The live-server installation video: [Video](https://www.loom.com/share/ca99ebec79d14bfa9fc4dd012661f919?sid=0c702a22-c5bd-4608-93d2-0643aecb4b07)  
+The live-server NPM package page: [Link](https://www.npmjs.com/package/live-server)
+>>>>>>> 70fab7a (Initial commit)
 
 Make sure to watch the [INTRO VIDEO](https://www.loom.com/share/7dc80d1a15f74d718dba51ed8490cacd?sid=40bfa1ba-526c-49b2-993f-7822deb6f731) before you start.
 
@@ -41,7 +53,12 @@ This assignment should prove that a student is able to:
 - [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
 - [ ] Initialize playwright and install project packages
   - [ ] Use `npm i` to install packages
+<<<<<<< HEAD
   - [ ] Use `npm run browser-install` to install the browser environment for testing 
+=======
+  - [ ] Use `npm run browser-install` to install the browser environment for testing (~131mb will be downloaded)
+  - [ ] (Windows users only) Use `npm run deps-install` to install playwright additional dependencies (160mb will be downloaded)
+>>>>>>> 70fab7a (Initial commit)
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] All the tests MUST pass. Fix any errors before you submit (acceptance criteria).
   - [ ] Use `npm run test` to run all tests in the terminal
@@ -60,6 +77,7 @@ This assignment should prove that a student is able to:
 
 All the tasks in the requirements are related to the index.html file! Consider "Jon Doe" to be replaced with your real first and last name.
 
+<<<<<<< HEAD
 - [ ] Create an html file with the name of "index" in the root of the project
 - [ ] Add HTML Boilerplate to the document
 - [ ] Set the document title to be "Jon Doe's resume".
@@ -99,3 +117,44 @@ All the tasks in the requirements are related to the index.html file! Consider "
 - [ ] The contacts table should have a class name of "contacts-table".
 - [ ] The body should have a class name of "fancy-body".
 - [ ] Check the result mockup to make sure your page looks EXACTLY as the mockup (/assets/images/p2-solved-mockup.png).
+=======
+- [x] Create an html file with the name of "index" in the root of the project
+- [x] Add HTML Boilerplate to the document
+- [x] Set the document title to be "Jon Doe's resume".
+- [x] Set the page heading to be "Jon Doe"
+- [x] Add a section heading with the content of "Talented Frontend developer" that represents the desired role.
+- [x] Add an image with required and important attributes
+  - [x] The image path should be `./assets/avatars/fake_person.jpg`. This image is included into the project already.
+  - [x] The image alternative text should match the page title.
+- [x] Add a section heading with the content of "About Me".
+- [x] Add a paragraph of text (50 words at least) as the John Doe's bio. You can use random text for the paragraph content.
+- [x] Add the section heading "My Skills"
+- [x] Add the ORDERED list and add 6 random item into it. (Feel free to use the devslopes website to get the real skill names or use some random skill names)
+- [x] Add the section heading "My Hobbies"
+- [x] Add the UNORDERED list of 4 hobbies
+- [x] Add the section heading "Contact Me"
+- [x] Add the table of two columns and 4 rows. The first column for every row is the table header with the service name. The second column is for the value.
+- [x] Add Discord as a service and your discord's real username as a value to the table.
+- [x] Add LinkedIn as a service and your linkedIn's real username as a value to the table. Make the value to be a link to your LinkedIn profile page opened in a new tab.
+- [x] Add Email as a service and your real email as the value. Make it to be a link that starts the new email message app.
+- [x] Add Github as a service and use your real github username as a value. Make the value to be a link that leads to your github profile in a new browser tab.
+- [x] Check the result mockup to make sure your page looks EXACTLY as the mockup (/assets/images/p1-solved-mockup.png).
+
+### Part 2: Testing the magic of id and class attributes
+
+- [x] In the head section connect the CSS file, available by the following path: `./css/styles.css`.
+- [x] In the head section connect a JS file, available by the following path: `./js/scripts.js`. Make sure it will be executed after the html is parsed.
+- [x] The page heading should have the id of "candidate-name"
+- [x] The desired role section heading should the id of "candidate-desired-role"
+- [x] The "About me" section heading should have an id of "about-me".
+- [x] The image should have the id of "candidate-image"
+- [x] The bio paragraph should have a class name of "candidate-bio"
+- [x] The skills section heading should have the id of "skills"
+- [x] The skills list should have the id of "skills-list"
+- [x] The Hobbies section heading should have the id of "hobbies"
+- [x] The hobbies list should have the id of "hobbies-list"
+- [x] The contacts section heading should have the id of "contacts"
+- [x] The contacts table should have a class name of "contacts-table".
+- [x] The body should have a class name of "fancy-body".
+- [x] Check the result mockup to make sure your page looks EXACTLY as the mockup (/assets/images/p2-solved-mockup.png).
+>>>>>>> 70fab7a (Initial commit)

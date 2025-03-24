@@ -4,18 +4,32 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "browser-install": "npx playwright install-deps && npx playwright install chromium",
+=======
+    "browser-install": "npx playwright install chromium",
+    "deps-install": "npx playwright install-deps",
+>>>>>>> 70fab7a (Initial commit)
     "test": "npx playwright test",
     "test-part1": "npx playwright test tests/tests-p1.spec.js",
     "test-part2": "npx playwright test tests/tests-p2.spec.js",
     "test-ui": "npx playwright test --ui",
+<<<<<<< HEAD
     "show-report": "npx playwright show-report"
+=======
+    "show-report": "npx playwright show-report",
+    "live-server": "npx live-server --port=5551"
+>>>>>>> 70fab7a (Initial commit)
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "@playwright/test": "^1.49.1",
     "node-html-parser": "^7.0.1"
+=======
+    "@playwright/test": "^1.49.1"
+>>>>>>> 70fab7a (Initial commit)
   }
 }
